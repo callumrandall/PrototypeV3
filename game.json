@@ -531,7 +531,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.922
+        "zoomFactor": 0.802
       },
       "objectsGroups": [],
       "variables": [],
@@ -545,8 +545,8 @@
           "name": "Player",
           "persistentUuid": "4dd56155-9c62-42a4-91a0-4f38497f9068",
           "width": 0,
-          "x": 1792,
-          "y": 960,
+          "x": 64,
+          "y": 448,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
