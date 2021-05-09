@@ -767,7 +767,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(run
 }if ( gdjs.Level_321Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition1IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8987980);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9659636);
 }
 }}
 if (gdjs.Level_321Code.condition1IsTrue_0.val) {
@@ -805,7 +805,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(run
 }if ( gdjs.Level_321Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition1IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8990396);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9662052);
 }
 }}
 if (gdjs.Level_321Code.condition1IsTrue_0.val) {
@@ -943,7 +943,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisi
 }if ( gdjs.Level_321Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition1IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8995372);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9667028);
 }
 }}
 if (gdjs.Level_321Code.condition1IsTrue_0.val) {
@@ -975,7 +975,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisi
 }if ( gdjs.Level_321Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition1IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8996428);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9668084);
 }
 }}
 if (gdjs.Level_321Code.condition1IsTrue_0.val) {
@@ -1122,7 +1122,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(run
 }if ( gdjs.Level_321Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition1IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9001252);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9672908);
 }
 }}
 if (gdjs.Level_321Code.condition1IsTrue_0.val) {
@@ -1149,7 +1149,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisi
 }if ( gdjs.Level_321Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition1IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9004292);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9675948);
 }
 }}
 if (gdjs.Level_321Code.condition1IsTrue_0.val) {
@@ -1199,7 +1199,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumb
 }if ( gdjs.Level_321Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition1IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8984804);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9656460);
 }
 }}
 if (gdjs.Level_321Code.condition1IsTrue_0.val) {
