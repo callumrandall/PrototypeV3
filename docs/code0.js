@@ -241,6 +241,10 @@ gdjs.MenuCode.GDsoundtextObjects1= [];
 gdjs.MenuCode.GDsoundtextObjects2= [];
 gdjs.MenuCode.GDsoundtextObjects3= [];
 gdjs.MenuCode.GDsoundtextObjects4= [];
+gdjs.MenuCode.GDTitleTextObjects1= [];
+gdjs.MenuCode.GDTitleTextObjects2= [];
+gdjs.MenuCode.GDTitleTextObjects3= [];
+gdjs.MenuCode.GDTitleTextObjects4= [];
 
 gdjs.MenuCode.conditionTrue_0 = {val:false};
 gdjs.MenuCode.condition0IsTrue_0 = {val:false};
@@ -2688,6 +2692,10 @@ gdjs.MenuCode.GDsoundtextObjects1.length = 0;
 gdjs.MenuCode.GDsoundtextObjects2.length = 0;
 gdjs.MenuCode.GDsoundtextObjects3.length = 0;
 gdjs.MenuCode.GDsoundtextObjects4.length = 0;
+gdjs.MenuCode.GDTitleTextObjects1.length = 0;
+gdjs.MenuCode.GDTitleTextObjects2.length = 0;
+gdjs.MenuCode.GDTitleTextObjects3.length = 0;
+gdjs.MenuCode.GDTitleTextObjects4.length = 0;
 
 gdjs.MenuCode.eventsList43(runtimeScene);
 return;

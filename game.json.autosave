@@ -979,7 +979,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.434
+        "zoomFactor": 0.314
       },
       "objectsGroups": [],
       "variables": [],
@@ -1953,8 +1953,8 @@
           "name": "Esc",
           "persistentUuid": "dd90c65e-de92-425d-a843-9baa063e9a85",
           "width": 96,
-          "x": 512,
-          "y": 32,
+          "x": 544,
+          "y": 256,
           "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
@@ -1969,8 +1969,8 @@
           "name": "esctext",
           "persistentUuid": "48909b67-c7e5-4da3-ba90-448cc10e0d07",
           "width": 0,
-          "x": 640,
-          "y": 58,
+          "x": 672,
+          "y": 280,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
@@ -2116,6 +2116,22 @@
           "x": 1696,
           "y": 960,
           "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TitleText",
+          "persistentUuid": "dd5a517b-0548-4e65-94af-1cb862d3d274",
+          "width": 0,
+          "x": 800,
+          "y": 64,
+          "zOrder": 71,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4570,6 +4586,25 @@
             "b": 255,
             "g": 255,
             "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": true,
+          "name": "TitleText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Dasherino",
+          "font": "",
+          "characterSize": 70,
+          "color": {
+            "b": 26,
+            "g": 26,
+            "r": 197
           }
         }
       ],
