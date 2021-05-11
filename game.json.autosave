@@ -817,6 +817,87 @@
         "metadata": "",
         "name": "new_chill_song_2_mastered.mp3",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tileBrown_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileBrown_02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tileBrown_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileBrown_27.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tileBrown_272.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileBrown_272.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tileBrown_273.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileBrown_273.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "blue_boxCheckmark.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blue_boxCheckmark.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "blue_boxCross.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blue_boxCross.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "blue_boxCheckmark2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blue_boxCheckmark2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/abstract-platformer-370-assets/PNG/blue_boxCross.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\abstract-platformer-370-assets\\PNG\\blue_boxCross.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "blue_boxCross2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blue_boxCross2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -855,6 +936,22 @@
     {
       "name": "deaths",
       "value": "0"
+    },
+    {
+      "name": "soundoff",
+      "value": "0"
+    },
+    {
+      "name": "musicoff",
+      "value": "0"
+    },
+    {
+      "name": "musicoffchanged",
+      "value": ""
+    },
+    {
+      "name": "soundoffchanged",
+      "value": ""
     }
   ],
   "layouts": [
@@ -882,7 +979,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.554
+        "zoomFactor": 0.434
       },
       "objectsGroups": [],
       "variables": [],
@@ -1923,6 +2020,102 @@
           "x": 1632,
           "y": 1024,
           "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Explanation",
+          "persistentUuid": "da918ecc-33cd-4564-847c-7f06424bcac3",
+          "width": 0,
+          "x": 1088,
+          "y": 320,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hint",
+          "persistentUuid": "7e723a45-31a9-4aa6-bcb9-1134e86377e7",
+          "width": 0,
+          "x": 1088,
+          "y": 416,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "mutemusic",
+          "persistentUuid": "6f1c9765-c75b-4008-b7a5-bcce3d13fdc2",
+          "width": 32,
+          "x": 1824,
+          "y": 896,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "mutesound",
+          "persistentUuid": "5cfc60c2-6c0d-413c-baf9-b2061ecd76d7",
+          "width": 32,
+          "x": 1824,
+          "y": 960,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "musictext",
+          "persistentUuid": "02e436ec-4693-4ce8-932c-676ffdd58e5d",
+          "width": 96,
+          "x": 1696,
+          "y": 896,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "soundtext",
+          "persistentUuid": "20fd4505-e8a8-48fc-87d1-08af7164aa7d",
+          "width": 96,
+          "x": 1696,
+          "y": 960,
+          "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4166,6 +4359,218 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Explanation",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "A challenging platformer, reach the flag in each stage.\nUse precisely timed jumps and dashes to progress.",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "hint",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Tip: Hold space or shift to instantly jump or dash when next avaiable\nHelpful to dash as soon as gaining a dash up or jump instantly off a wall.",
+          "font": "",
+          "characterSize": 15,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "mutemusic",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "blue_boxCheckmark.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "blue_boxCross.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mutesound",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "blue_boxCheckmark2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "blue_boxCross2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "musictext",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Music:",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "soundtext",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "SFX:",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -4175,7 +4580,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Player control",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4554,20 +4959,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactPlate_light_004.ogg",
-                    "no",
-                    "10",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
@@ -4578,7 +4969,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactPlate_light_004.ogg",
+                        "no",
+                        "10",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -5358,20 +5786,6 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "impactPlate_heavy_000.ogg",
-                            "",
-                            "10",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "ModVarObjet"
                           },
                           "parameters": [
@@ -5409,7 +5823,44 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "soundoff",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "impactPlate_heavy_000.ogg",
+                                "",
+                                "10",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     },
                     {
                       "disabled": false,
@@ -5479,20 +5930,6 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "impactPlate_heavy_000.ogg",
-                            "",
-                            "10",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "ModVarObjet"
                           },
                           "parameters": [
@@ -5530,7 +5967,44 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "soundoff",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "impactPlate_heavy_000.ogg",
+                                "",
+                                "10",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 }
@@ -5649,7 +6123,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Dash Collectible",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5699,20 +6173,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactGlass_light_003.ogg",
-                    "",
-                    "35",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
@@ -5722,7 +6182,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactGlass_light_003.ogg",
+                        "",
+                        "10",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ],
           "parameters": []
@@ -5783,20 +6280,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactGlass_light_000.ogg",
-                    "",
-                    "20",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
@@ -5818,7 +6301,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactGlass_light_000.ogg",
+                        "",
+                        "10",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -7511,7 +8031,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Music",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7550,6 +8070,538 @@
                 }
               ],
               "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "mute button music",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "musicoff",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "mutemusic",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "=",
+                    "10"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "musicoff",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "mutemusic",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "mutemusic",
+                    "g",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "musicoffchanged",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "musicoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "musicoffchanged",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "musicoff",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "musicoffchanged",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "musicoff",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "musicoffchanged",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "musicoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "musicoffchanged",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "mute button sound",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "soundoff",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "mutesound",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "soundoff",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "mutesound",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "mutesound",
+                    "g",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "soundoffchanged",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoffchanged",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "soundoffchanged",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoffchanged",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "soundoffchanged",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ],
           "parameters": []
@@ -7640,7 +8692,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.658
+        "zoomFactor": 0.634
       },
       "objectsGroups": [],
       "variables": [],
@@ -8629,7 +9681,7 @@
           "locked": false,
           "name": "GodText",
           "persistentUuid": "c452e2c3-2ac1-4f7d-8c8b-e4221973bba8",
-          "width": 192,
+          "width": 480,
           "x": 224,
           "y": 0,
           "zOrder": 143,
@@ -8773,7 +9825,7 @@
           "locked": false,
           "name": "floorgreen",
           "persistentUuid": "347d3fa7-baf6-4d8f-a9d7-f329e99df41d",
-          "width": 1216,
+          "width": 576,
           "x": 64,
           "y": 1024,
           "zOrder": 150,
@@ -9472,14 +10524,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 96,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "deathzone",
           "persistentUuid": "01dd1820-be33-40ea-9c06-82c09cc7d655",
           "width": 544,
           "x": 640,
-          "y": 1024,
+          "y": 1056,
           "zOrder": 204,
           "numberProperties": [],
           "stringProperties": [],
@@ -9673,6 +10725,22 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "floorgreen",
+          "persistentUuid": "be69f57f-d86d-4b4b-9111-f735ef9b671b",
+          "width": 96,
+          "x": 1184,
+          "y": 1024,
+          "zOrder": 208,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10714,7 +11782,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "tileBrown_18.png",
+                      "image": "tileBrown_27.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10954,6 +12022,16 @@
           "width": 1080,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "deatharea",
+          "tags": "",
+          "texture": "tileBrown_02.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -10963,7 +12041,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Player control",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11342,20 +12420,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactPlate_light_004.ogg",
-                    "no",
-                    "10",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
@@ -11366,7 +12430,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactPlate_light_004.ogg",
+                        "no",
+                        "10",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -12177,20 +13278,6 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "impactPlate_heavy_000.ogg",
-                            "",
-                            "10",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "ModVarObjet"
                           },
                           "parameters": [
@@ -12228,7 +13315,44 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "soundoff",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "impactPlate_heavy_000.ogg",
+                                "",
+                                "10",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     },
                     {
                       "disabled": false,
@@ -12298,20 +13422,6 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "impactPlate_heavy_000.ogg",
-                            "",
-                            "10",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "ModVarObjet"
                           },
                           "parameters": [
@@ -12349,7 +13459,44 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "soundoff",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "impactPlate_heavy_000.ogg",
+                                "",
+                                "10",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 }
@@ -12518,20 +13665,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactGlass_light_003.ogg",
-                    "",
-                    "35",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
@@ -12541,7 +13674,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactGlass_light_003.ogg",
+                        "",
+                        "35",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ],
           "parameters": []
@@ -12602,20 +13772,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactGlass_light_000.ogg",
-                    "",
-                    "20",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
@@ -12625,7 +13781,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactGlass_light_000.ogg",
+                        "",
+                        "20",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -12669,7 +13862,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Death",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12751,7 +13944,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "God mode",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12991,7 +14184,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "stats",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13424,7 +14617,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.698
+        "zoomFactor": 0.626
       },
       "objectsGroups": [],
       "variables": [],
@@ -13454,7 +14647,7 @@
           "name": "Score",
           "persistentUuid": "fdb28883-edf0-45d6-80fe-770da5ef04ce",
           "width": 192,
-          "x": 0,
+          "x": 32,
           "y": 0,
           "zOrder": 125,
           "numberProperties": [],
@@ -13485,8 +14678,8 @@
           "locked": false,
           "name": "GodText",
           "persistentUuid": "c452e2c3-2ac1-4f7d-8c8b-e4221973bba8",
-          "width": 416,
-          "x": 192,
+          "width": 576,
+          "x": 224,
           "y": 0,
           "zOrder": 143,
           "numberProperties": [],
@@ -13581,7 +14774,7 @@
           "locked": false,
           "name": "floorgreen",
           "persistentUuid": "347d3fa7-baf6-4d8f-a9d7-f329e99df41d",
-          "width": 224,
+          "width": 192,
           "x": 32,
           "y": 1056,
           "zOrder": 150,
@@ -14631,54 +15824,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "jumpthruright",
-          "persistentUuid": "6d692576-098f-437e-9a8a-a2b3290a8056",
-          "width": 0,
-          "x": 960,
-          "y": 672,
-          "zOrder": 214,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "jumpthru",
-          "persistentUuid": "a913b042-03ed-4001-aed7-a73307f6abca",
-          "width": 0,
-          "x": 896,
-          "y": 672,
-          "zOrder": 215,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "jumpthruleft",
-          "persistentUuid": "5b7ebf7d-6b7c-4610-b9b6-9e44c5471225",
-          "width": 0,
-          "x": 832,
-          "y": 672,
-          "zOrder": 217,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 192,
           "layer": "",
@@ -14712,22 +15857,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "floorgreen",
-          "persistentUuid": "5b307d99-a483-4248-b20e-cab8b6c3b08c",
-          "width": 160,
-          "x": 1728,
-          "y": 832,
-          "zOrder": 219,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 160,
           "layer": "",
           "locked": false,
@@ -14753,22 +15882,6 @@
           "x": 640,
           "y": 576,
           "zOrder": 221,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
-          "name": "floorgreen",
-          "persistentUuid": "0aed23f0-2a4d-4780-8d54-0715ec875b43",
-          "width": 192,
-          "x": 864,
-          "y": 1056,
-          "zOrder": 222,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14977,6 +16090,358 @@
           "x": 0,
           "y": 32,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "17a14bf0-d4c5-4e2d-b44f-f3d675fa1cf2",
+          "width": 0,
+          "x": 896,
+          "y": 672,
+          "zOrder": 234,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "floorleft",
+          "persistentUuid": "0d176d20-9461-45da-b996-6da5bfecb91e",
+          "width": 0,
+          "x": 832,
+          "y": 672,
+          "zOrder": 235,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "floorright",
+          "persistentUuid": "b5ac0b7e-5267-4939-b579-ba4c29c0d5fd",
+          "width": 0,
+          "x": 960,
+          "y": 672,
+          "zOrder": 236,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "f982de1d-c9e0-4e1f-8429-c0ecd30f8dd4",
+          "width": 0,
+          "x": 1792,
+          "y": 832,
+          "zOrder": 237,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "floorleft",
+          "persistentUuid": "e513110e-49e8-4b79-846e-f388027aa287",
+          "width": 0,
+          "x": 1856,
+          "y": 832,
+          "zOrder": 238,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "floorright",
+          "persistentUuid": "07a5a0dd-3529-4a33-b0f3-c2bfbb6bf379",
+          "width": 0,
+          "x": 1728,
+          "y": 832,
+          "zOrder": 239,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "737e7530-d0fa-4d39-85ce-89b5ba9ee9c1",
+          "width": 96,
+          "x": 864,
+          "y": 832,
+          "zOrder": 240,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "floorleft",
+          "persistentUuid": "79ae880e-e5d7-4543-bd56-cece4c20f569",
+          "width": 0,
+          "x": 960,
+          "y": 832,
+          "zOrder": 241,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floorleft",
+          "persistentUuid": "3aa3e863-84d5-48df-9b18-837d02845ec3",
+          "width": 32,
+          "x": 864,
+          "y": 1056,
+          "zOrder": 242,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floorright",
+          "persistentUuid": "74bfdc41-95cd-4445-b4ff-5ebdfc2aeeee",
+          "width": 32,
+          "x": 1024,
+          "y": 1056,
+          "zOrder": 243,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "4790b253-1c29-4406-bf16-2a86d4688e7b",
+          "width": 32,
+          "x": 896,
+          "y": 1056,
+          "zOrder": 244,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "d050053c-dc7b-4285-8cc9-5fcfe55d1ad2",
+          "width": 32,
+          "x": 960,
+          "y": 1056,
+          "zOrder": 244,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "db7c3632-aee8-4385-b532-17bae4e533a5",
+          "width": 32,
+          "x": 928,
+          "y": 1056,
+          "zOrder": 244,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "074b71e5-132f-4d47-8299-e94f7e72b566",
+          "width": 32,
+          "x": 992,
+          "y": 1056,
+          "zOrder": 244,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floorleft",
+          "persistentUuid": "8e94374d-4173-4200-8cc4-27b2c6847eac",
+          "width": 32,
+          "x": 0,
+          "y": 1056,
+          "zOrder": 245,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floorright",
+          "persistentUuid": "dc4980a4-9f8d-42bb-8852-b48fd24afd3b",
+          "width": 32,
+          "x": 224,
+          "y": 1056,
+          "zOrder": 246,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "7a71eec1-ab43-43ed-a75c-0d0395456bc9",
+          "width": 32,
+          "x": 192,
+          "y": 1056,
+          "zOrder": 247,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "a163bbf2-8c20-4481-8c12-6a150967feeb",
+          "width": 32,
+          "x": 160,
+          "y": 1056,
+          "zOrder": 247,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "ec971a8f-1ed8-4ac1-ac57-048539d2d794",
+          "width": 32,
+          "x": 128,
+          "y": 1056,
+          "zOrder": 247,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "3219afc8-43c7-4cf4-9b71-282985633b0f",
+          "width": 32,
+          "x": 96,
+          "y": 1056,
+          "zOrder": 247,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "db2ee240-a23a-421a-907c-99e8829ea125",
+          "width": 32,
+          "x": 64,
+          "y": 1056,
+          "zOrder": 247,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "343c4a69-a447-42a7-81b6-4ae7fa7273db",
+          "width": 32,
+          "x": 32,
+          "y": 1056,
+          "zOrder": 247,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16022,7 +17487,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "tileBrown_18.png",
+                      "image": "tileBrown_272.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16717,20 +18182,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactPlate_light_004.ogg",
-                    "no",
-                    "10",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
@@ -16741,7 +18192,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactPlate_light_004.ogg",
+                        "no",
+                        "10",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -17355,7 +18843,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Dash",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17552,20 +19040,6 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "impactPlate_heavy_000.ogg",
-                            "",
-                            "10",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "ModVarObjet"
                           },
                           "parameters": [
@@ -17603,7 +19077,44 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "soundoff",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "impactPlate_heavy_000.ogg",
+                                "",
+                                "10",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     },
                     {
                       "disabled": false,
@@ -17673,20 +19184,6 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "impactPlate_heavy_000.ogg",
-                            "",
-                            "10",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "ModVarObjet"
                           },
                           "parameters": [
@@ -17724,7 +19221,44 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "soundoff",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "impactPlate_heavy_000.ogg",
+                                "",
+                                "10",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 }
@@ -17843,7 +19377,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Dash Collectible",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17893,20 +19427,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactGlass_light_003.ogg",
-                    "",
-                    "35",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
@@ -17916,7 +19436,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactGlass_light_003.ogg",
+                        "",
+                        "35",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ],
           "parameters": []
@@ -17927,7 +19484,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Score",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17977,20 +19534,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactGlass_light_000.ogg",
-                    "",
-                    "20",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
@@ -18000,7 +19543,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactGlass_light_000.ogg",
+                        "",
+                        "20",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -19051,7 +20631,7 @@
           "persistentUuid": "4dd56155-9c62-42a4-91a0-4f38497f9068",
           "width": 0,
           "x": 1792,
-          "y": 992,
+          "y": 928,
           "zOrder": 1000,
           "numberProperties": [],
           "stringProperties": [],
@@ -19066,7 +20646,7 @@
           "name": "Score",
           "persistentUuid": "fdb28883-edf0-45d6-80fe-770da5ef04ce",
           "width": 192,
-          "x": 0,
+          "x": 32,
           "y": 0,
           "zOrder": 125,
           "numberProperties": [],
@@ -19097,8 +20677,8 @@
           "locked": false,
           "name": "GodText",
           "persistentUuid": "c452e2c3-2ac1-4f7d-8c8b-e4221973bba8",
-          "width": 480,
-          "x": 192,
+          "width": 512,
+          "x": 224,
           "y": 0,
           "zOrder": 143,
           "numberProperties": [],
@@ -19129,8 +20709,8 @@
           "locked": false,
           "name": "deathzone",
           "persistentUuid": "462eb246-1bbd-410d-a3de-ef2a8524f433",
-          "width": 1920,
-          "x": 32,
+          "width": 1952,
+          "x": 0,
           "y": 1088,
           "zOrder": 138,
           "numberProperties": [],
@@ -19380,14 +20960,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 32,
+          "height": 64,
           "layer": "",
           "locked": false,
           "name": "floorgreen",
           "persistentUuid": "4bf59c1c-b39e-4ec5-b6f1-2cbecea4e915",
           "width": 128,
           "x": 1728,
-          "y": 1056,
+          "y": 1024,
           "zOrder": 227,
           "numberProperties": [],
           "stringProperties": [],
@@ -19611,7 +21191,7 @@
           "persistentUuid": "9ee4cca1-a884-482f-887b-f1b33367aafb",
           "width": 32,
           "x": 1696,
-          "y": 832,
+          "y": 800,
           "zOrder": 230,
           "numberProperties": [],
           "stringProperties": [],
@@ -19620,14 +21200,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 96,
           "layer": "",
           "locked": false,
           "name": "floorgreen",
           "persistentUuid": "463347de-1531-461c-8c30-cdd37feb58c2",
           "width": 96,
           "x": 1792,
-          "y": 768,
+          "y": 736,
           "zOrder": 231,
           "numberProperties": [],
           "stringProperties": [],
@@ -19635,13 +21215,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "collectible",
           "persistentUuid": "f839a994-5af6-4ee3-a52f-8985432de4ed",
-          "width": 0,
+          "width": 32,
           "x": 1216,
           "y": 768,
           "zOrder": 232,
@@ -19684,47 +21264,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 96,
-          "layer": "",
-          "locked": false,
-          "name": "deathzone",
-          "persistentUuid": "2447ef3e-3441-4dcd-bfb3-2398e937e88d",
-          "width": 32,
-          "x": 896,
-          "y": 960,
-          "zOrder": 235,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 32,
           "layer": "",
           "locked": false,
           "name": "deathzone",
           "persistentUuid": "a35f71f8-8128-44d3-b30f-14bebbd55106",
-          "width": 96,
-          "x": 800,
-          "y": 960,
-          "zOrder": 236,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "floorgreen",
-          "persistentUuid": "3b6a112b-d4e3-4578-8ded-fd7fb2a84add",
-          "width": 96,
+          "width": 128,
           "x": 800,
           "y": 992,
-          "zOrder": 237,
+          "zOrder": 236,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19755,7 +21303,7 @@
           "persistentUuid": "8106bf88-fc91-4c19-a7a1-b71faa99681f",
           "width": 64,
           "x": 832,
-          "y": 896,
+          "y": 928,
           "zOrder": 241,
           "numberProperties": [],
           "stringProperties": [],
@@ -19771,7 +21319,7 @@
           "persistentUuid": "47281390-be09-4f3a-88ff-2dac243ad759",
           "width": 64,
           "x": 832,
-          "y": 927,
+          "y": 959,
           "zOrder": 242,
           "numberProperties": [],
           "stringProperties": [],
@@ -19949,22 +21497,6 @@
           "x": 1152,
           "y": 736,
           "zOrder": 251,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
-          "name": "floorgreen",
-          "persistentUuid": "67ab125a-ae4a-431e-bdfa-b77c850ebddd",
-          "width": 160,
-          "x": 1696,
-          "y": 736,
-          "zOrder": 252,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20907,7 +22439,7 @@
           "persistentUuid": "370c1fd2-099c-448a-afc1-23253b80d70d",
           "width": 32,
           "x": 736,
-          "y": 64,
+          "y": 96,
           "zOrder": 294,
           "numberProperties": [],
           "stringProperties": [],
@@ -20923,7 +22455,7 @@
           "persistentUuid": "245a82c3-7bb6-41c0-8674-22ab10c6f014",
           "width": 32,
           "x": 608,
-          "y": 64,
+          "y": 96,
           "zOrder": 294,
           "numberProperties": [],
           "stringProperties": [],
@@ -20939,7 +22471,7 @@
           "persistentUuid": "bdbad138-4b41-47c2-82bd-bec93a2bdeca",
           "width": 32,
           "x": 512,
-          "y": 64,
+          "y": 96,
           "zOrder": 294,
           "numberProperties": [],
           "stringProperties": [],
@@ -20955,7 +22487,7 @@
           "persistentUuid": "59311eea-4822-47bf-b696-64f620f5ffe7",
           "width": 32,
           "x": 416,
-          "y": 64,
+          "y": 96,
           "zOrder": 294,
           "numberProperties": [],
           "stringProperties": [],
@@ -20971,7 +22503,7 @@
           "persistentUuid": "f771384e-6438-4cbc-adbb-0d30fc839efc",
           "width": 32,
           "x": 320,
-          "y": 64,
+          "y": 96,
           "zOrder": 295,
           "numberProperties": [],
           "stringProperties": [],
@@ -20987,7 +22519,7 @@
           "persistentUuid": "6ac45c2b-e1d6-462e-9630-b401d98e0314",
           "width": 32,
           "x": 192,
-          "y": 64,
+          "y": 96,
           "zOrder": 294,
           "numberProperties": [],
           "stringProperties": [],
@@ -21003,7 +22535,7 @@
           "persistentUuid": "9f562666-f5de-41f2-85e3-b6817ac62273",
           "width": 32,
           "x": 480,
-          "y": 64,
+          "y": 96,
           "zOrder": 298,
           "numberProperties": [],
           "stringProperties": [],
@@ -21019,7 +22551,7 @@
           "persistentUuid": "51181319-076a-49ce-a0b4-8b6f24f76196",
           "width": 32,
           "x": 448,
-          "y": 64,
+          "y": 96,
           "zOrder": 298,
           "numberProperties": [],
           "stringProperties": [],
@@ -21035,7 +22567,7 @@
           "persistentUuid": "aa2adcc5-8917-4c14-879c-abfa0449b4b3",
           "width": 32,
           "x": 256,
-          "y": 64,
+          "y": 96,
           "zOrder": 298,
           "numberProperties": [],
           "stringProperties": [],
@@ -21051,7 +22583,7 @@
           "persistentUuid": "9edb82c2-ca03-4cc1-8fb4-d832ab43f9b8",
           "width": 32,
           "x": 672,
-          "y": 64,
+          "y": 96,
           "zOrder": 298,
           "numberProperties": [],
           "stringProperties": [],
@@ -21412,7 +22944,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 160,
+          "height": 128,
           "layer": "",
           "locked": false,
           "name": "floorgreen",
@@ -21428,7 +22960,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 96,
+          "height": 64,
           "layer": "",
           "locked": false,
           "name": "floorgreen",
@@ -21965,6 +23497,166 @@
           "x": 1536,
           "y": 1056,
           "zOrder": 1001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floorcenter",
+          "persistentUuid": "77e09da2-d470-489b-8bbb-9ecc5079b642",
+          "width": 32,
+          "x": 544,
+          "y": 576,
+          "zOrder": 1002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floorright",
+          "persistentUuid": "acde2e7c-e7b3-4121-adbc-2c6e44d95877",
+          "width": 32,
+          "x": 576,
+          "y": 512,
+          "zOrder": 1003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floorleft",
+          "persistentUuid": "510f74ad-8c4a-4ac9-ab47-9c82ffffa4e1",
+          "width": 32,
+          "x": 608,
+          "y": 512,
+          "zOrder": 1004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "floorright",
+          "persistentUuid": "194a6de5-b969-4da0-a39a-20a5bd760634",
+          "width": 0,
+          "x": 1792,
+          "y": 832,
+          "zOrder": 1005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "floorleft",
+          "persistentUuid": "22659e98-a192-4d1e-b337-5577c856cbc8",
+          "width": 0,
+          "x": 1856,
+          "y": 832,
+          "zOrder": 1006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floorleft",
+          "persistentUuid": "64ecb730-c527-40bc-bb86-ddea49d8c836",
+          "width": 32,
+          "x": 1760,
+          "y": 736,
+          "zOrder": 1007,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floorright",
+          "persistentUuid": "263ddd5b-c6c9-476b-965f-db1025aaa3c0",
+          "width": 32,
+          "x": 1696,
+          "y": 736,
+          "zOrder": 1008,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floor",
+          "persistentUuid": "1888fa61-3096-433f-a7d1-c96070859f8e",
+          "width": 32,
+          "x": 1728,
+          "y": 736,
+          "zOrder": 1009,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "floorgreen",
+          "persistentUuid": "d53ad809-ba7a-4d5d-b601-86dddd69872b",
+          "width": 128,
+          "x": 800,
+          "y": 1024,
+          "zOrder": 1010,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "collectible",
+          "persistentUuid": "064171d4-1ade-4daf-a3e4-32a1381a3ab4",
+          "width": 32,
+          "x": 832,
+          "y": 608,
+          "zOrder": 232,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23160,7 +24852,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "tileBrown_18.png",
+                      "image": "tileBrown_273.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -24091,7 +25783,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Player control",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24470,20 +26162,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactPlate_light_004.ogg",
-                    "no",
-                    "10",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
@@ -24494,7 +26172,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactPlate_light_004.ogg",
+                        "no",
+                        "10",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -25318,20 +27033,6 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "impactPlate_heavy_000.ogg",
-                            "",
-                            "10",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "ModVarObjet"
                           },
                           "parameters": [
@@ -25369,7 +27070,44 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "soundoff",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "impactPlate_heavy_000.ogg",
+                                "",
+                                "10",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     },
                     {
                       "disabled": false,
@@ -25439,20 +27177,6 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "impactPlate_heavy_000.ogg",
-                            "",
-                            "10",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "ModVarObjet"
                           },
                           "parameters": [
@@ -25490,7 +27214,44 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "soundoff",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "impactPlate_heavy_000.ogg",
+                                "",
+                                "10",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 }
@@ -25659,20 +27420,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactGlass_light_003.ogg",
-                    "",
-                    "35",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
@@ -25682,7 +27429,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactGlass_light_003.ogg",
+                        "",
+                        "35",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ],
           "parameters": []
@@ -25743,20 +27527,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactGlass_light_000.ogg",
-                    "",
-                    "20",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
@@ -25766,7 +27536,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactGlass_light_000.ogg",
+                        "",
+                        "20",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -25810,7 +27617,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Death",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27567,7 +29374,7 @@
         "gridWidth": 270,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.514
+        "zoomFactor": 1.066
       },
       "objectsGroups": [],
       "variables": [],
@@ -27709,7 +29516,7 @@
           "name": "button",
           "persistentUuid": "66dbd5e8-8b68-4fc0-8723-f1f325dadf90",
           "width": 0,
-          "x": 864,
+          "x": 878,
           "y": 576,
           "zOrder": 153,
           "numberProperties": [],
@@ -27725,7 +29532,7 @@
           "name": "MenuText",
           "persistentUuid": "d98dca22-c847-45f9-963f-8de95443d93d",
           "width": 0,
-          "x": 895,
+          "x": 907,
           "y": 588,
           "zOrder": 154,
           "numberProperties": [],
@@ -29938,7 +31745,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Player control",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30283,20 +32090,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactPlate_light_004.ogg",
-                    "no",
-                    "10",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
@@ -30307,7 +32100,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactPlate_light_004.ogg",
+                        "no",
+                        "10",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -31087,20 +32917,6 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "impactPlate_heavy_000.ogg",
-                            "",
-                            "10",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "ModVarObjet"
                           },
                           "parameters": [
@@ -31138,7 +32954,44 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "soundoff",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "impactPlate_heavy_000.ogg",
+                                "",
+                                "10",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     },
                     {
                       "disabled": false,
@@ -31208,20 +33061,6 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "impactPlate_heavy_000.ogg",
-                            "",
-                            "10",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "ModVarObjet"
                           },
                           "parameters": [
@@ -31259,7 +33098,44 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "soundoff",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "impactPlate_heavy_000.ogg",
+                                "",
+                                "10",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 }
@@ -31428,20 +33304,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactGlass_light_003.ogg",
-                    "",
-                    "35",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
@@ -31451,7 +33313,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactGlass_light_003.ogg",
+                        "",
+                        "35",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ],
           "parameters": []
@@ -31512,20 +33411,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "impactGlass_light_000.ogg",
-                    "",
-                    "20",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
@@ -31535,7 +33420,44 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "soundoff",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "impactGlass_light_000.ogg",
+                        "",
+                        "20",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
