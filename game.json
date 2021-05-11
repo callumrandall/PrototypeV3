@@ -810,6 +810,13 @@
         "name": "backgroundCastles2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "new_chill_song_2_mastered.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "new_chill_song_2_mastered.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -861,7 +868,7 @@
       "oglZNear": 1,
       "r": 201,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 230,
       "uiSettings": {
@@ -1900,6 +1907,22 @@
           "x": 32,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "credit",
+          "persistentUuid": "39afd05a-5476-4d19-9224-158d9b37c672",
+          "width": 0,
+          "x": 1632,
+          "y": 1024,
+          "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4124,6 +4147,25 @@
           "width": 1080,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "credit",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Assets by Kenney and Xelu\nMusic by Alex McCulloch",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -5902,7 +5944,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "God mode",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6142,7 +6184,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "stats",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6935,7 +6977,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Menu button 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7113,7 +7155,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Menu button 2",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7291,7 +7333,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Menu button 3",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7462,13 +7504,62 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Music",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "new_chill_song_2_mastered.mp3",
+                    "0",
+                    "yes",
+                    "10",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
         {
-          "ambientLightColorB": 1702453580,
-          "ambientLightColorG": 1801675106,
-          "ambientLightColorR": 167797870,
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1801675136,
+          "ambientLightColorR": 167797872,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "background",
@@ -7535,7 +7626,7 @@
       "oglZNear": 1,
       "r": 201,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 230,
       "uiSettings": {
@@ -13254,9 +13345,9 @@
       ],
       "layers": [
         {
-          "ambientLightColorB": 1702453580,
-          "ambientLightColorG": 1801675106,
-          "ambientLightColorR": 167797870,
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1801675136,
+          "ambientLightColorR": 167797872,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "background",
@@ -13319,7 +13410,7 @@
       "oglZNear": 1,
       "r": 201,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 230,
       "uiSettings": {
@@ -18866,7 +18957,7 @@
       ],
       "layers": [
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 0,
           "ambientLightColorR": 20,
           "followBaseLayerCamera": false,
@@ -18931,7 +19022,7 @@
       "oglZNear": 1,
       "r": 201,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 230,
       "uiSettings": {
@@ -27393,9 +27484,9 @@
       ],
       "layers": [
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 0,
-          "ambientLightColorR": 150995045,
+          "ambientLightColorR": 150995040,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "background",
@@ -27462,7 +27553,7 @@
       "oglZNear": 1,
       "r": 201,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 230,
       "uiSettings": {
@@ -33056,9 +33147,9 @@
       ],
       "layers": [
         {
-          "ambientLightColorB": 1702453580,
-          "ambientLightColorG": 1801675106,
-          "ambientLightColorR": 167797870,
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1801675136,
+          "ambientLightColorR": 167797872,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "background",
